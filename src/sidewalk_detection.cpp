@@ -146,7 +146,7 @@ public:
       // Update GUI Window
       cv::imshow(OPENCV_WINDOW, hough_tf->image);
       cv::waitKey(3);
-      pub.publish(cv_ptr_flip->toImageMsg());
+      pub.publish(hough_tf->toImageMsg());
     }
 
     void pc_callback(const sensor_msgs::PointCloud2ConstPtr& pc_input)
