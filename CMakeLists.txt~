@@ -5,7 +5,7 @@ project(marble_sidewalk)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS roscpp std_msgs sensor_msgs 
-	image_transport cv_bridge pcl_ros pcl_conversions)
+	image_transport cv_bridge pcl_ros pcl_conversions pcl)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
